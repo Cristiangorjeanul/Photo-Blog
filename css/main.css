@@ -1,0 +1,71 @@
+#main {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#main h1 {
+  font-size: 37px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #main h1 {
+    font-size: 50px;
+  }
+}
+
+#seasons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.image-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  padding: 15vw;
+}
+
+#landscape {
+  width: 75vw;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/8f/Bachalpsee_reflection.jpg");
+}
+
+#spring {
+  width: 75vw;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/92/Colorful_spring_garden.jpg");
+}
+
+#summer {
+  width: 100vw;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e4/Hawaii_Creek.jpg");
+}
+
+#autumn {
+  width: 100vw;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a7/Parcul_Her%C4%83str%C4%83u.jpg");
+}
+
+#winter {
+  width: 100vw;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/36/Levi%2C_Kittila_-_Finland_-_panoramio_-_aristidov_%287%29.jpg");
+}
+
+#filter {
+  width: 100vw;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Neutral_density_filter_demonstration.jpg");
+}
+
+#flash {
+  width: 100vw;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/6/67/Lightnings_sequence_2_animation-wcag.gif");
+}

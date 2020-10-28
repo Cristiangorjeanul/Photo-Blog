@@ -1,0 +1,98 @@
+#inspiration {
+  position: relative;
+  top: 2px;
+  height: auto;
+}
+
+@media only screen and (min-width: 769px) {
+  #inspiration {
+    top: 50px;
+    height: auto;
+  }
+}
+
+.step h6 {
+  font-size: 14px;
+  text-align: center;
+  color: blue;
+  margin-bottom: 4px;
+}
+
+@media only screen and (min-width: 769px) {
+  .step h6 {
+    font-size: 24px;
+    margin-top: 1px;
+  }
+}
+
+.steps {
+  padding-top: 5px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 769px) {
+  .steps {
+    padding-top: 100px;
+  }
+}
+
+.step {
+  height: 35px;
+  width: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1px;
+  padding: 4px;
+}
+
+.step img {
+  width: 100%;
+  border-radius: 2px;
+  border: solid blue 3px;
+  box-shadow: 10px 10px 50px -20px black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 769px) {
+  .step img {
+    justify-content: center;
+  }
+}
+
+#result img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 325px;
+  height: 325px;
+  box-shadow: 10px 10px 50px -20px black;
+}
+
+@media (min-width: 769px) {
+  #result img {
+    width: 490px;
+    height: 490px;
+  }
+}
+
+.inspirations {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 769px) {
+  .inspirations {
+    display: flex;
+    justify-content: center;
+  }
+}

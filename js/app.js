@@ -53,22 +53,7 @@ $(function () {
     loadImages(season);
 
 
-    //Logo bar
-
-    $(document).scroll(function(){
-  
-        var footerSelector = '#logo';
-        var socialBarSelector = '.logo-bar';
-    
-        var bottomViewPort = $(window).scrollTop()+$(window).height();
-        var footerTop = $(footerSelector ).offset().top;
-    
-        if( bottomViewPort>=footerTop){
-          $(socialBarSelector).fadeOut();
-        }else{
-          $(socialBarSelector).fadeIn();
-        }
-      });
+   
 
 
 });

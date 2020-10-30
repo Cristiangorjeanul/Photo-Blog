@@ -216,3 +216,63 @@ ul li {
 .final a:hover {
   color: blue;
 }
+
+#logo {
+  width: 180px;
+  height: 20px;
+  background-color: white;
+  margin: auto;
+  margin-top: -50px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.logo-bar a {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.2s;
+}
+
+.logo-bar a:hover {
+  transform: scale(1.2);
+}
+
+.face {
+  background: hsl(221, 44%, 40%);
+  color: white;
+}
+
+.twit {
+  background: hsl(206, 82%, 60%);
+  color: white;
+}
+
+.inst {
+  background: hsl(315, 71%, 50%);
+  color: white;
+}
+
+.link {
+  background: blue;
+  color: white;
+}
+
+.yout {
+  background: hsl(0, 100%, 50%);
+  color: white;
+}
+
+.snap {
+  background: hsl(60, 100%, 50%);
+  color: white;
+}
+
+.pint {
+  background: #c92228;
+  color: white;
+}

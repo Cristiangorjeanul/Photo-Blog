@@ -42,67 +42,6 @@ h5 {
   height: auto;
 }
 
-.logo-bar {
-  position: fixed;
-  z-index: 100;
-  top: 205px;
-  transform: translateY(-50%);
-}
-
-@media (min-width: 768px) {
-  .logo-bar {
-    top: 51%;
-  }
-}
-
-.logo-bar a {
-  display: block;
-  text-align: center;
-  padding: 8px 14px;
-  font-size: 200%;
-  width: 51%;
-  transition: all 0.2s;
-}
-
-.logo-bar a:hover {
-    width: 110%;
-}
-
-.face {
-  background: hsl(221, 44%, 40%);
-  color: white;
-}
-
-.twit {
-  background: hsl(206, 82%, 60%);
-  color: white;
-}
-
-.inst {
-  background: hsl(315, 71%, 50%);
-  color: white;
-}
-
-.link {
-  background: blue;
-  color: white;
-}
-
-.yout {
-  background: hsl(0, 100%, 50%);
-  color: white;
-}
-
-.snap {
-  background: hsl(60, 100%, 50%);
-  color: white;
-}
-
-.pint {
-  background: #C92228;
-  color: white;
-}
-
 .callToAction.container {
   display: flex;
   justify-content: center;

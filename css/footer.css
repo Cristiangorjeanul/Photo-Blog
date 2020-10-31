@@ -14,6 +14,7 @@ footer h3 {
   font-size: 32px;
   text-align: center;
   color: blue;
+  text-align: center;
 }
 
 footer h5 {
@@ -21,6 +22,7 @@ footer h5 {
   text-align: center;
   color: blue;
   margin-top: 50px;
+  text-align: center;
 }
 
 @media (min-width: 769px) {
@@ -36,6 +38,7 @@ footer label {
   text-align: justify;
   text-justify: inter-word;
   margin-left: 41%;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -57,6 +60,7 @@ footer label {
   text-align: justify;
   text-justify: inter-word;
   resize: none;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -82,6 +86,7 @@ footer input {
   background-color: lightblue;
   font-size: 15px;
   resize: none;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -171,6 +176,8 @@ button {
   grid-gap: 2px;
   grid-template-columns: 1fr 1fr 1fr;
   height: 200px;
+  max-width: 50%;
+  margin: auto;
 }
 
 ul li a {
@@ -185,10 +192,6 @@ ul li a:hover {
 ul li {
   list-style-type: none;
   color: black;
-}
-
-.second-column {
-  height: 50%;
 }
 
 .line {
@@ -223,7 +226,7 @@ ul li {
   background-color: white;
   margin: auto;
   margin-top: -50px;
-  padding-left: 10px;
+  padding-left: 50px;
   padding-bottom: 15px;
 }
 

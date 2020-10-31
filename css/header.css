@@ -76,6 +76,7 @@ h5 {
 
 .headerInfo a {
   color: white;
+  text-shadow: 1px 1px 1px black;
   padding: 1px 8px;
   background-color: red;
   border-radius: 5px;
@@ -94,6 +95,7 @@ h5 {
 
 .headerInfo a:hover {
   letter-spacing: 5px;
+  background-color: lightblue;
 }
 
 .container {
@@ -145,7 +147,6 @@ h5 {
   margin: auto;
   height: 25%;
   min-width: 235px;
-  background-color: blue;
   width: 23%;
   margin-bottom: 10px;
   text-align: center;
@@ -158,14 +159,13 @@ h5 {
   .box {
     height: 50%;
     min-width: 220px;
-    background-color: blue;
     width: 23%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 10px 10px 50px -20px grey;
+    box-shadow: 10px 10px 50px -20px black;
   }
 }
 

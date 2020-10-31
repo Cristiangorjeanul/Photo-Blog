@@ -170,63 +170,12 @@ button {
   }
 }
 
-.columns {
-  position: relative;
-  display: grid;
-  grid-gap: 2px;
-  grid-template-columns: 1fr 1fr 1fr;
-  height: 200px;
-  max-width: 50%;
-  margin: auto;
-}
-
-ul li a {
-  text-decoration: none;
-  color: black;
-}
-
-ul li a:hover {
-  color: blue;
-}
-
-ul li {
-  list-style-type: none;
-  color: black;
-}
-
-.line {
-  border: 1px solid blue;
-}
-
-.columns {
-  color: black;
-  display: grid;
-  margin: auto;
-}
-
-@media (min-width: 768px) {
-  .columns {
-    left: 55px;
-  }
-}
-
-.final {
-  text-align: center;
-  margin: auto;
-  text-decoration: none;
-}
-
-.final a:hover {
-  color: blue;
-}
-
 #logo {
   width: 180px;
   height: 20px;
   background-color: white;
   margin: auto;
-  margin-top: -50px;
-  padding-left: 50px;
+  margin-top: 50px;
   padding-bottom: 15px;
 }
 
@@ -278,4 +227,14 @@ ul li {
 .pint {
   background: #c92228;
   color: white;
+}
+
+.final {
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+}
+
+.final a:hover {
+  color: blue;
 }

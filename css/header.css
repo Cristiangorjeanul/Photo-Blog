@@ -135,10 +135,16 @@ h5 {
 }
 
 .box p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: white;
   margin: 1px;
+}
+
+@media (min-width: 758px) {
+  .box p {
+    font-size: 20px;
+  }
 }
 
 .box {

@@ -1,20 +1,20 @@
-#main {
+#section {
   width: 100%;
   margin-top: 10px;
 }
 
-#main h1 {
+#section h1 {
   font-size: 37px;
   text-align: center;
 }
 
 @media (max-width: 768px) {
-  #main h1 {
+  #section h1 {
     font-size: 50px;
   }
 }
 
-#main h2 {
+#section h2 {
   font-size: 32px;
   text-align: center;
 }

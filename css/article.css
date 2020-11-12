@@ -98,7 +98,7 @@
 }
 
 .camera {
-  bottom: 10px;
+  bottom: 50px;
   width: 320px;
   height: 320px;
   margin: auto;
@@ -110,7 +110,7 @@
 
 @media (min-width: 768px) {
   .camera {
-    top: 50px;
+    top: 100px;
     height: 350px;
   }
 }

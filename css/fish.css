@@ -95,7 +95,7 @@
   left: 1px;
   position: absolute;
   top: 4px;
-  animation: eye 3s infinite ease-in;
+  animation: eye 2.5s infinite ease-in;
 }
 
 @keyframes eye {
@@ -169,27 +169,27 @@
 }
 
 .wing1 {
-  transform: skewX(30deg) skewY(8deg);
+  transform: skewX(35deg) skewY(8deg);
   background-color: gold;
   border-radius: 200px 112px 47px 62px;
   box-shadow: -7px -8px 9px black inset;
-  height: 18px;
-  left: 54px;
+  height: 15px;
+  left: 53px;
   position: absolute;
   top: 80px;
-  width: 42px;
+  width: 39px;
   animation: wing 1s infinite ease-in;
 }
 
 @keyframes wing {
   from {
-    transform: scale(1) rotate(15deg);
+    transform: scale(1) rotate(19deg);
   }
   50% {
-    transform: scale(1.05) rotate(10deg);
+    transform: scale(1.1) rotate(1deg);
   }
   to {
-    transform: scale(1) rotate(15deg);
+    transform: scale(1) rotate(19deg);
   }
 }
 
@@ -229,16 +229,17 @@
   position: absolute;
   top: 23px;
   width: 38px;
+  animation: tail 1s infinite ease-in;
 }
 
 @keyframes tail {
   from {
-    transform: scale(0.8) skewY(2deg);
+    transform: scale(0.8) skewY(1deg);
   }
   50% {
-    transform: scale(0.7) skewY(20deg);
+    transform: scale(0.7) skewY(23deg);
   }
   to {
-    transform: scale(0.8) skewY(2deg);
+    transform: scale(0.8) skewY(1deg);
   }
 }

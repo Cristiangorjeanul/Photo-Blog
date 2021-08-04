@@ -1,0 +1,131 @@
+/*Photos*/
+.photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .photos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.photos img {
+  position: absolute;
+  width: 153px;
+  height: 153px;
+  top: 1px;
+  padding: 10px;
+  background: white;
+  border: 3px solid gold;
+  box-shadow: 1px 3px 5px -1px black;
+  transition: 0.3s cubic-bezier(0, 0, 1, 1);
+}
+
+.photos img:hover {
+  width: 235px;
+  height: 235px;
+  z-index: 100;
+}
+
+.photos .project1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  width: 325px;
+}
+
+@media (min-width: 768px) {
+  .photos .project1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+  }
+}
+
+.photos img:nth-child(1) {
+  transform: rotate(-10deg);
+}
+.photos img:nth-child(2) {
+  transform: rotate(-5deg);
+}
+.photos img:nth-child(3) {
+  transform: rotate(5deg);
+}
+.photos img:nth-child(4) {
+  transform: rotate(10deg);
+}
+
+.photos .project1:hover img:nth-child(1) {
+  transform: translate(-85px, -25px);
+}
+.photos .project1:hover img:nth-child(2) {
+  transform: translate(85px, -25px);
+}
+.photos .project1:hover img:nth-child(3) {
+  transform: translate(-85px, 150px);
+}
+.photos .project1:hover img:nth-child(4) {
+  transform: translate(85px, 150px);
+}
+
+.photos .project2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  width: 325px;
+}
+
+@media (max-width: 768px) {
+  .photos .project2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 350px;
+  }
+}
+
+.photos .project2:hover img:nth-child(1) {
+  transform: translate(-85px, -25px);
+}
+.photos .project2:hover img:nth-child(2) {
+  transform: translate(85px, -25px);
+}
+.photos .project2:hover img:nth-child(3) {
+  transform: translate(-85px, 150px);
+}
+.photos .project2:hover img:nth-child(4) {
+  transform: translate(85px, 150px);
+}
+
+.photos .project3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  width: 325px;
+}
+
+@media (max-width: 768px) {
+  .photos .project3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 350px;
+  }
+}
+
+.photos .project3:hover img:nth-child(1) {
+  transform: translate(-85px, -25px);
+}
+.photos .project3:hover img:nth-child(2) {
+  transform: translate(85px, -25px);
+}
+.photos .project3:hover img:nth-child(3) {
+  transform: translate(-85px, 150px);
+}
+.photos .project3:hover img:nth-child(4) {
+  transform: translate(85px, 150px);
+}
